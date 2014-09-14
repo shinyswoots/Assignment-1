@@ -53,7 +53,7 @@ public class CalculatorMain {
 		
 		c.add(1);
 		
-		System.out.println("Challenge 4 - Is " + c.getCurrentNumber() + " even?");
+		System.out.println("Challenge 4 - Is " + c.getCurrentNumber() + " a prime number?");
 		System.out.println("Expected Answer: false, Calculated Answer: " + c.isPrime());
 
 
