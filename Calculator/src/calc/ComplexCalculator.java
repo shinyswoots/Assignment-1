@@ -39,11 +39,11 @@ public class ComplexCalculator {
 	// power()
 	public void power(double d) {
 		double initialNumber = currentNumber;
-		for(int i = 1; i < d; i++){
+		for(int i = 0; i < d - 1; i++){
 			currentNumber = currentNumber * initialNumber;
 		}
 	}
-	
+		
 	public double getCurrentNumber() {
 		return currentNumber;
 	}	
